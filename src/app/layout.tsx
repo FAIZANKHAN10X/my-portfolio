@@ -4,6 +4,7 @@ import { ThemeProvider } from 'next-themes'
 import Header from './components/layout/header'
 import Footer from './components/layout/footer/Footer'
 import ScrollToTop from './components/scroll-to-top'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export default function RootLayout({
   children,
@@ -27,6 +28,7 @@ export default function RootLayout({
             <ScrollToTop />
           </ThemeProvider>
       </body>
+      <GoogleAnalytics gaId="G-BB0H8H4NN0" />
     </html>
   )
 }
