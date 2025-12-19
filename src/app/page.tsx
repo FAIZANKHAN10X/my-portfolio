@@ -8,7 +8,7 @@ import HeroSection from "./components/home/hero";
 import Innovation from "./components/home/innovation";
 import OnlinePresence from "./components/home/online-presence";
 import Solutions from "./components/home/solution";
-import Subscription from "./components/home/subscription";
+import BookCall from "./components/home/book-call"
 import WebResult from "./components/home/web-result";
 
 export const metadata: Metadata = {
@@ -47,13 +47,13 @@ export default function Home() {
       <CustomerStories />
       {/* ---------------------Customer Stories section Ends-----------------  */}
 
-      {/* ---------------------Subscription section Starts-----------------  */}
-      <Subscription />
-      {/* ---------------------Subscription section Ends-----------------  */}
-
       {/* ---------------------Faq section Starts-----------------  */}
       <Faq />
       {/* ---------------------Faq section Ends-----------------  */}
+
+      {/* ---------------------Book Call section Starts----------------- */}
+      <BookCall />
+      {/* ---------------------Book Call section Ends------------------- */}
 
       {/* ---------------------Achievements section Starts-----------------  */}
       <Achievements />

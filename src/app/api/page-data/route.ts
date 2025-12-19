@@ -6,7 +6,6 @@ import {
   onlinePresence,
   creativeMind,
   WebResultTag,
-  startupPlan,
   faq,
   achievements,
 } from '@/app/types/menu'
@@ -170,45 +169,6 @@ const WebResultTagList: WebResultTag[] = [
   },
 ]
 
-const startupPlanList: startupPlan[] = [
-  {
-    plan_bg_color: 'bg-pale-yellow',
-    text_color: 'text-dark_black',
-    descp_color: 'dark_black/60',
-    border_color: 'border-dark_black/10',
-    plan_name: 'Starter',
-    plan_descp: 'For companies who need design support. One request at a time',
-    plan_price: '$2500',
-    icon_img: '/images/home/startupPlan/white_tick.svg',
-    plan_feature: [
-      'Design Updates Every 2 Days',
-      'Mid-level Designer',
-      'SEO optimization',
-      'Monthly analytics',
-      '2x Calls Per Month',
-      'License free assets',
-    ],
-  },
-  {
-    plan_bg_color: 'bg-purple_blue',
-    text_color: 'text-white',
-    descp_color: 'white/60',
-    border_color: 'border-white/10',
-    plan_name: 'Pro',
-    plan_descp: '2x the speed. Great for an MVP, Web App or complex problem',
-    plan_price: '$3800',
-    icon_img: '/images/home/startupPlan/black_tick.svg',
-    plan_feature: [
-      'Design Updates Daily',
-      'Senior-level Designer',
-      'AI Advisory Framework',
-      'Full-service Creative Team',
-      '4x Calls Per Month',
-      'License free assets',
-    ],
-  },
-]
-
 const faqList: faq[] = [
   {
     faq_que: 'What services does Awake Agency offer?',
@@ -280,7 +240,6 @@ export const GET = async () => {
     onlinePresenceList,
     creativeMindList,
     WebResultTagList,
-    startupPlanList,
     faqList,
     achievementsList,
   });

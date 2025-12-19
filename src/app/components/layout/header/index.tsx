@@ -145,7 +145,7 @@ const Header = () => {
               ))}
               <div className='flex flex-col items-center gap-3 px-2 mt-2'>
                 <Link
-                  href='/contact'
+                  href='#book-call'
                   className='w-auto bg-purple_blue text-white font-medium flex flex-row items-center justify-center gap-2 py-2 px-5 rounded-full border border-purple_blue transition-all duration-200 ease-in-out hover:bg-transparent hover:text-purple_blue'>
                   <span>Get Started</span>
                   <svg

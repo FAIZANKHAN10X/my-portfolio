@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 
 const footerData = {
     brand: {
-        name: "Awake",
+        name: "MonacoByte",
         tagline: "Empowering businesses with innovative solutions. Let's create something amazing together.",
         socialLinks: [
             {
@@ -30,7 +30,6 @@ const footerData = {
     sitemap: {
         name: "Sitemap",
         links: [
-            { name: "Contact us", url: "/contact" },
             { name: "About us", url: "/#aboutus" },
             { name: "Work", url: "/#work" },
             { name: "Services", url: "/#services" },
@@ -50,7 +49,7 @@ const footerData = {
         email: "hello@awake.agency",
         phone: "0105 192 3556"
     },
-    copyright: "©2025 Awake. All Rights Reserved"
+    copyright: "©2026 MonacoByte. All Rights Reserved"
 };
 
 export const GET = async () => {
